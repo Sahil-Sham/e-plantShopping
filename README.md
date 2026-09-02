@@ -1,3 +1,3 @@
-# My Portfolio Project
+# e-plantShopping
 
-This repository contains the software engineering assignment project.
+A React-based e-commerce web application for buying plants online, featuring a shopping cart powered by Redux Toolkit.
