@@ -1,19 +1,18 @@
 import React from 'react';
+import './AboutUs.css';
 
-const AboutUs = () => {
+function AboutUs() {
   return (
-    <section className="about-us">
-      <h1>About Us</h1>
-      <p>
-        Welcome to our company! We are dedicated to providing high-quality 
-        web applications and services to our clients.
+    <div className="about-us-container">
+      <h1 className="about-us-heading">About Us</h1>
+      <p className="about-us-description">
+        Welcome to Paradise Nursery, your number one source for all green plants and gardening essentials. We are dedicated to providing you the best quality plants, with a focus on air purity, aromatic freshness, and indoor aesthetic.
       </p>
-      <p>
-        Our team focuses on modern web development, creating scalable and 
-        user-friendly solutions for digital experiences.
+      <p className="about-us-content">
+        Founded in 2026, Paradise Nursery has come a long way from its beginnings. Our mission is to make homes greener and healthier by delivering top-quality houseplants directly to your doorstep.
       </p>
-    </section>
+    </div>
   );
-};
+}
 
 export default AboutUs;
